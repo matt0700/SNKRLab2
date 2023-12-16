@@ -7,13 +7,24 @@
     android:background="@color/backgroundcolor"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/Proceed_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginBottom="152dp"
+        android:text="Proceed"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="195dp"
+        android:layout_height="315dp"
+        app:layout_constraintBottom_toTopOf="@+id/Proceed_Button"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/snkrlab_logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
