@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:foregroundTint="#000000"
     tools:context=".MainActivity2">
 
     <TextView
@@ -13,4 +14,15 @@
         android:text="Welcome to SNKRLab"
         tools:layout_editor_absoluteX="137dp"
         tools:layout_editor_absoluteY="147dp" />
+
+    <ImageButton
+        android:id="@+id/nike_button"
+        android:layout_width="103dp"
+        android:layout_height="77dp"
+        android:backgroundTint="#070707"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/nikelogo"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="278dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
