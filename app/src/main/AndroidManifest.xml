@@ -28,6 +28,9 @@
         <meta-data android:name="com.snap.camerakit.api.token" android:value="${eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzAyOTcxMTUyLCJzdWIiOiIyYzViOTE0ZC1jZWFmLTQ5MWItOWI1Zi05YTAyOWM1NjRmZTV-U1RBR0lOR35lMDYwZjhiMy1iMDY0LTQyMDItOGFjZS0xNWJjOTVhZmIzZTkifQ.NwIdQqWoSqHRz2vG-uol68eBL4IuYthEoYbU1VEgcGc.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzAyOTcxMTUyLCJzdWIiOiIyYzViOTE0ZC1jZWFmLTQ5MWItOWI1Zi05YTAyOWM1NjRmZTV-U1RBR0lOR35lMDYwZjhiMy1iMDY0LTQyMDItOGFjZS0xNWJjOTVhZmIzZTkifQ.NwIdQqWoSqHRz2vG-uol68eBL4IuYthEoYbU1VEgcGc}" />
 
         <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity3"
             android:exported="false" />
         <activity

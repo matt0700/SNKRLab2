@@ -2,7 +2,6 @@ package com.example.snkrlab2;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.content.Intent;
 import android.view.View;
 import android.widget.ImageButton;
 
