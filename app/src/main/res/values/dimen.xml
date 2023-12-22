@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="column_use_case_width">300dp</dimen>
+<<<<<<< Updated upstream
 </resources>
+=======
+</resources>
+>>>>>>> Stashed changes

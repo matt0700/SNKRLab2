@@ -1,5 +1,6 @@
 package com.example.snkrlab2;
 
+<<<<<<< Updated upstream
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -163,5 +164,15 @@ public class MainActivity4 extends AppCompatActivity {
                 playContract.launch(new CameraActivity.Play.Params.WithLens.Builder().lensGroupId(LENS_GROUP_IDS[0])
                         .lensId(APPLY_LENS_BY_ID)
                         .build()));
+=======
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity4 extends AppCompatActivity {
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main4);
+>>>>>>> Stashed changes
     }
 }

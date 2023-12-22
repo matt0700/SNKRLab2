@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">SNKRLab2</string>
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     <string name="title_use_cases_camera_activity">CameraActivity Use Cases</string>
     <string name="title_capture_with">Capture with:</string>
     <string name="title_play_with">Play with:</string>
