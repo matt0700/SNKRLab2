@@ -13,6 +13,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     Button Prcd_button;
     ImageButton nike_button;
+    ImageButton placeholder_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +22,18 @@ public class MainActivity2 extends AppCompatActivity {
 
 
         nike_button = findViewById(R.id.nike_button);
-
         nike_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
+                startActivity(intent);
+
+            }
+        });
+
+        placeholder_button = findViewById(R.id.placeholder_button);
+        placeholder_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 

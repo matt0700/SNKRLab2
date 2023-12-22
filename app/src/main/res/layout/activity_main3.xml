@@ -8,15 +8,21 @@
     tools:context=".MainActivity3">
 
     <!-- Sidebar Button -->
+
+    <!-- White Rectangle as Background -->
+
     <ImageButton
         android:id="@+id/sidebarButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/sidebutton"
-        tools:layout_editor_absoluteX="383dp"
-        tools:layout_editor_absoluteY="84dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/backgroundView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
 
-    <!-- White Rectangle as Background -->
     <View
         android:id="@+id/backgroundView"
         android:layout_width="0dp"
