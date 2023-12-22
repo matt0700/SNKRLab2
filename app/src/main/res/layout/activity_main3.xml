@@ -22,7 +22,7 @@
         android:layout_width="0dp"
         android:layout_height="65dp"
         android:background="@android:color/white"
-        android:elevation="dp"
+        android:elevation="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -34,6 +34,7 @@
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
         android:src="@drawable/button"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -48,6 +49,7 @@
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/mic"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -60,6 +62,7 @@
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/Hide"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@id/voiceButton" />
 
@@ -72,6 +75,7 @@
         android:layout_marginBottom="16dp"
         android:background="@android:color/transparent"
         android:src="@drawable/setting"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@id/galleryButton" />
 
@@ -84,6 +88,7 @@
         android:layout_marginBottom="14dp"
         android:background="@android:color/transparent"
         android:src="@drawable/gallery"
+        android:elevation="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
