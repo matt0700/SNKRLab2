@@ -5,5 +5,19 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+    <style name="Theme.CameraKitDemo" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowFullscreen">true</item>\
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="AppTheme.Preview" parent="Theme.CameraKitDemo">
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowEnterTransition">@android:transition/no_transition</item>
+        <item name="android:windowExitTransition">@android:transition/no_transition</item>
+    </style>
+
     <style name="Theme.SNKRLab2" parent="Base.Theme.SNKRLab2" />
 </resources>
